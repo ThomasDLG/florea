@@ -1,0 +1,155 @@
+//  HEADER
+
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #009245;
+}
+
+.input-group {
+  & input {
+    border-bottom: 1px solid #009245;
+    border-top: 1px solid #009245;
+    border-left: 1px solid #009245;
+    border-right: none;
+    outline: none;
+    &::placeholder {
+      color: #009245;
+    }
+  }
+  & .btn {
+    border-bottom: 1px solid #009245;
+    border-top: 1px solid #009245;
+    border-right: 1px solid #009245;
+    border-left: none;
+    & i {
+      color: #009245;
+    }
+    &:hover {
+      border-bottom: 1px solid #009245;
+      border-top: 1px solid #009245;
+      border-right: 1px solid #009245;
+    }
+  }
+}
+
+// CAROUSEL
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  & .carousel-item img {
+    height: 530px;
+  }
+}
+
+// TITLE
+
+.title-dash {
+  display: inline;
+  padding: 0 16px;
+  color: #009245;
+  border-bottom: 1px dashed #009245;
+}
+
+// PRODUCTS
+
+#products .product-item {
+  cursor: pointer;
+  text-align: center;
+  margin: 24px 0;
+  & .product-image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+    &:hover {
+      scale: 1.03;
+      transition: 0.3s;
+    }
+    & .product-prix {
+      position: absolute;
+      bottom: 24px;
+      right: 24px;
+      padding: 4px 8px;
+      border-radius: 5px;
+      background-color: #8cc63f;
+      color: #fff;
+    }
+  }
+}
+
+// FOOTER
+
+#footer {
+  padding-top: 24px;
+  background-color: #d8ebd9d6;
+  & .column1 a,
+  .column2 a,
+  .column3 a {
+    text-decoration: none;
+    color: #009245;
+  }
+  & .column1 ul li,
+  .column3 ul li {
+    list-style: none;
+  }
+  & h4 {
+    color: #009245;
+  }
+  & ul {
+    padding: 0;
+  }
+  & .column2 {
+    & .form-custom {
+      width: 60%;
+      padding: 8px 16px;
+      border: 1px solid #009245;
+      border-radius: 5px;
+      background-color: transparent;
+      &::placeholder {
+        color: #009245;
+      }
+    }
+    & button {
+      text-transform: uppercase;
+      font-size: 12px;
+      padding: 10px 18px;
+      background-color: #009245;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+    & ul li {
+      display: inline;
+
+      & a img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+  & .column3 ul li img {
+    width: 16px;
+    margin-right: 12px;
+  }
+  & .footer-baseline {
+    background-color: #00ad74;
+    color: #fff;
+    margin: 0;
+    padding: 8px 0;
+  }
+}
+
+// ARIANE
+
+#ariane {
+  background-color: #009245;
+  padding: 8px 0;
+  & p {
+    color: #fff;
+    margin: 0;
+  }
+}

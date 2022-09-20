@@ -1,0 +1,150 @@
+.navbar-brand img {
+  width: 150px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #009245;
+}
+
+.input-group input {
+  border-bottom: 1px solid #009245;
+  border-top: 1px solid #009245;
+  border-left: 1px solid #009245;
+  border-right: none;
+  outline: none;
+}
+.input-group input::-moz-placeholder {
+  color: #009245;
+}
+.input-group input:-ms-input-placeholder {
+  color: #009245;
+}
+.input-group input::placeholder {
+  color: #009245;
+}
+.input-group .btn {
+  border-bottom: 1px solid #009245;
+  border-top: 1px solid #009245;
+  border-right: 1px solid #009245;
+  border-left: none;
+}
+.input-group .btn i {
+  color: #009245;
+}
+.input-group .btn:hover {
+  border-bottom: 1px solid #009245;
+  border-top: 1px solid #009245;
+  border-right: 1px solid #009245;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-container .carousel-item img {
+  height: 530px;
+}
+
+.title-dash {
+  display: inline;
+  padding: 0 16px;
+  color: #009245;
+  border-bottom: 1px dashed #009245;
+}
+
+#products .product-item {
+  cursor: pointer;
+  text-align: center;
+  margin: 24px 0;
+}
+#products .product-item .product-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  transition: 0.3s;
+}
+#products .product-item .product-image:hover {
+  scale: 1.03;
+  transition: 0.3s;
+}
+#products .product-item .product-image .product-prix {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: #8cc63f;
+  color: #fff;
+}
+
+#footer {
+  padding-top: 24px;
+  background-color: rgba(216, 235, 217, 0.8392156863);
+}
+#footer .column1 a,
+#footer .column2 a,
+#footer .column3 a {
+  text-decoration: none;
+  color: #009245;
+}
+#footer .column1 ul li,
+#footer .column3 ul li {
+  list-style: none;
+}
+#footer h4 {
+  color: #009245;
+}
+#footer ul {
+  padding: 0;
+}
+#footer .column2 .form-custom {
+  width: 60%;
+  padding: 8px 16px;
+  border: 1px solid #009245;
+  border-radius: 5px;
+  background-color: transparent;
+}
+#footer .column2 .form-custom::-moz-placeholder {
+  color: #009245;
+}
+#footer .column2 .form-custom:-ms-input-placeholder {
+  color: #009245;
+}
+#footer .column2 .form-custom::placeholder {
+  color: #009245;
+}
+#footer .column2 button {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 18px;
+  background-color: #009245;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+#footer .column2 ul li {
+  display: inline;
+}
+#footer .column2 ul li a img {
+  width: 30px;
+  height: 30px;
+}
+#footer .column3 ul li img {
+  width: 16px;
+  margin-right: 12px;
+}
+#footer .footer-baseline {
+  background-color: #00ad74;
+  color: #fff;
+  margin: 0;
+  padding: 8px 0;
+}
+
+#ariane {
+  background-color: #009245;
+  padding: 8px 0;
+}
+#ariane p {
+  color: #fff;
+  margin: 0;
+}
