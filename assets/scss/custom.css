@@ -50,6 +50,7 @@
   padding: 0 16px;
   color: #009245;
   border-bottom: 1px dashed #009245;
+  text-transform: uppercase;
 }
 
 #products .product-item {
